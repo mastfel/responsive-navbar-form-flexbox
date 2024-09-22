@@ -8,7 +8,7 @@ html,body{
     background-position: center;
     
 }
-
+/* Navbar */
 nav{
 background-color: rgb(141, 179, 232);
 display: flex;
@@ -30,7 +30,6 @@ nav img{
 
 .nav{
     display: flex;
-    /* background-color: blueviolet; */
     width: 90%;
     justify-content: center;
     align-items: center;
@@ -39,7 +38,6 @@ nav img{
 .nav li {
     margin: 20px;
     list-style-type: none;
-   
 }
 a{
     text-decoration: none;
@@ -56,8 +54,7 @@ a:hover{
 }
 nav li:hover .menu{
     display:block;
-    position: absolute; /* Pour éviter de déplacer les autres liens */
-     /* Positionne juste en dessous du lien parent */
+    position: absolute; 
     left: 50%;
     background-color: rgb(94, 94, 149);
     border-radius: 20px 5px;
@@ -94,11 +91,11 @@ nav li:hover .menu{
         }
         nav li:hover .menu{
             display:block;
-            position: absolute; /* Pour éviter de déplacer les autres liens */
-             /* Positionne juste en dessous du lien parent */
+            position: absolute; 
             left: 50%;
             background-color: rgb(94, 94, 149);
             border-radius: 20px 5px;
         }
         
 }
+
