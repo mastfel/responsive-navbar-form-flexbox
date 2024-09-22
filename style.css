@@ -8,7 +8,7 @@ html,body{
     background-position: center;
     
 }
-
+/* Navbar */
 nav{
 background-color: rgb(141, 179, 232);
 display: flex;
@@ -30,7 +30,6 @@ nav img{
 
 .nav{
     display: flex;
-    /* background-color: blueviolet; */
     width: 90%;
     justify-content: center;
     align-items: center;
@@ -39,7 +38,6 @@ nav img{
 .nav li {
     margin: 20px;
     list-style-type: none;
-   
 }
 a{
     text-decoration: none;
@@ -56,8 +54,7 @@ a:hover{
 }
 nav li:hover .menu{
     display:block;
-    position: absolute; /* Pour éviter de déplacer les autres liens */
-     /* Positionne juste en dessous du lien parent */
+    position: absolute; 
     left: 50%;
     background-color: rgb(94, 94, 149);
     border-radius: 20px 5px;
@@ -94,11 +91,77 @@ nav li:hover .menu{
         }
         nav li:hover .menu{
             display:block;
-            position: absolute; /* Pour éviter de déplacer les autres liens */
-             /* Positionne juste en dessous du lien parent */
+            position: absolute; 
             left: 50%;
             background-color: rgb(94, 94, 149);
             border-radius: 20px 5px;
         }
         
+}
+/* form */
+
+.container{
+
+    background-color: white;
+    opacity: 0.95;
+    display: flex;
+    margin: 50px;
+    padding: 100px;
+
+}
+.contact{
+    width: 20%;
+    margin: 40px;
+    background-color: bisque;
+    text-align: center;
+}
+.form{
+    width: 60%;
+    align-self: center;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+    
+}
+input{
+   height: 30px; 
+   
+}
+
+textarea{
+    height: 80px;
+   resize: none;
+}
+ .btn{
+    width:50% ;
+   align-self: center;
+   background-color: burlywood;
+   border-color: antiquewhite;
+   border-radius: 8px ;
+   font-size: large;
+}
+
+@media screen and (max-width :700px){
+
+    .container{
+        margin: 2px 2px;
+        padding: 5px;
+        
+    }
+    .contact{
+        width: 50%;
+        margin: 10px;
+        background-color: bisque;
+        padding: 0;
+        text-align: center;
+    }
+    .form{
+        width: 50%;
+        align-self: center;
+        
+    }
 }
