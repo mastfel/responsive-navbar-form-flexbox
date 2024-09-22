@@ -10,7 +10,76 @@
 </head>
 <body>
     
-   
+   <nav>
+        <img src="img/travel.png" alt="logo">
+        <ul class="nav">
+            <li><a href="nav.html">Accueil</a></li>
+            <li><a href="#">Pays</a>
+                <ul class="menu">
+                    <li><a href="#">Farnce</a>
+                        <ul class="sous-menu">
+                            <li><a href="#">Paris</a></li>
+                            <li><a href="#">Rouen</a></li>
+                            <li><a href="#">Lile</a></li>
+                            <li><a href="#">Lyon</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Espagne</a>
+                        <ul class="sous-menu">
+                            <li><a href="#">Madrid</a></li>
+                            <li><a href="#">Barcelone</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Italie</a>
+                        <ul class="sous-menu">
+                            <li><a href="#">Rome</a></li>
+                            <li><a href="#">Naples</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Japon</a>
+                        <ul class="sous-menu">
+                            <li><a href="#">Tokyo</a></li>
+                            <li><a href="#">Osaka</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Australie</a>
+                        <ul class="sous-menu">
+                            <li><a href="#">Sydney</a></li>
+                            <li><a href="#">Melbourn</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="form.html">Contact</a></li>
+        </ul>
+   </nav>
+
+   <div class="container">
+        <div class="contact">
+            <p> <span class="far fa-map-marker-alt"></span></p>
+            <p>Rue de la paix</p>
+            <p>75002 Paris</p>
+
+            <p> <span class="far fa-phone-alt"></span></p>
+            <p>01 02 03 04 05</p>
+            <p>
+                <span class="far fa-envelope"></span></p>
+            <p>contact@gmail.fr</p>  
+        </div>
+
+        <div class="form">
+            <form action="">
+            <input type="text" name="nom" id="nom" placeholder="Nom">
+            <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+            <input type="mail" name="mail" id="mail" pattern=".+@example\.com"  placeholder="exemple@gmail.fr" required  >
+            <textarea name="message" id="message" placeholder="Votre message"></textarea>
+            <input class="btn"  type="submit">
+            
+            </form>
+        </div>
+        
+   </div>
+
 
 </body>
 </html>
