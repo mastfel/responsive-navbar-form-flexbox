@@ -165,3 +165,14 @@ textarea{
         
     }
 }
+@media screen and (max-width :412px){
+
+    .container{
+        height: 50%;
+        margin:50px 50px;
+        text-align: center;
+     
+        
+    }
+    
+}
